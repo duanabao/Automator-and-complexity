@@ -7,7 +7,7 @@
 1. 第2章 上下文无关的语言后可以复习下自己做的编译器。https://pandolia.net/tinyc/ch10_top_down_parse.html、
 2. 图灵介绍和解读：http://www-history.mcs.st-andrews.ac.uk/Biographies/Turing.html
 3. 计算模型仿真：http://www.jflap.org/
-4. 。。。
+4. 根据课程目标建立最后的平台和工具！
 
 ## 最后的报告
 
