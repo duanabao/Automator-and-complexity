@@ -91,33 +91,40 @@ For your final project, you can do one of the following.
 
 ## 课程内容安排：
 
-| Lecture       | Topics                                                       | 讲义                       | 教材                                                    | 负责人         | 讨论题目 |
-| ------------- | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------- | -------------- | -------- |
-| 第1次课程     | Overview + 任务分拆 + 复杂性定义+extension （quantum，Interpretability） |                            |                                                         | 老师           |          |
-| 第2次课程     | 自动机理论（DFA，NFA） + 形式语言1-正则语言（RL的运算性质:闭包，RE） | 第1章1，2 3，4             | 中文第2章<br />英文:§1.1-§1.3                           | 宋昆           | 问题1    |
-|               | 自动机理论 RE=NFA=DFA +（NRL） pump lemma                    | 第1章5，6 （举简单的例子） | 中文第2章 + 补充<br />英文:§1.3-§1.4                    | 吉锋瑞         |          |
-| 第3次课程     | 上下文无关的语言（CFL，CFG，文法标准化，讨论下歧义性）+ CFG->检查代码是否符合文法？（CFG是否能够派生出代码字符串？）+ 下推自动机的基本组成 | 第2章1，2 3，4             | 中文第3章                                               | 刘孟寅         |          |
-|               | CFG =下推自动机， CFL的运算性质 + NCFL与证明 + 总结          | 第2章5，6习题课            | 中文第3章                                               | 庄雨           |          |
-| 第4次课程     | 图灵机 + 通用图灵机 + 图灵机的变形，算法鲁棒性分析           | 第3章1,2,3                 | 中文第4章                                               | 朱康希         |          |
-|               | 图灵丘奇定理                                                 | 第3章                      | 中文第4章                                               | 刘雪松         |          |
-| 第5次课程     | 可计算问题分析                                               | 第4章1                     | 中文第5章                                               | 李长泰         |          |
-|               | 不可解问题                                                   | 第4章2                     | 中文第5章                                               | 任世奇         |          |
-| 第6次课程     | 归约+Rice定理1                                               | 第5章1，2                  | 中文第6章                                               | 肖楠           |          |
-|               | 归约技巧1：历史格局+PC问题                                   | 第5章3，4                  | 中文第6章                                               | 国贤玉         |          |
-| 第7次课程     | P问题定义和分析：时间复杂度的定义；单带图灵机，多带图灵机，不确定图灵机的复杂度分析；P类问题和P类问题举例（定理8.12，13，14） | 第7章1                     | 电子中文书第8章8.1，8.2                                 | 杨晓芬         |          |
-|               | **NP问题定义和分析**：NP类问题的定义；典型的NP类问题，P和NP（书上简单说明了，由于二者并未解决，所以可以参看其他资料，简单分析下）；多项式时间规约（定理8.26）+库克-列文定理的描述 | **第7章2**                 | 电子中文书第8章8.3，8.4.1                               | 师亚勇         |          |
-| 第8次课程     | NPC定义，NP hard定义库克-列文定理（定理8.22，8.30）与证明；总结下常见的NPC问题，分析推论8.32， | 第7章3                     | 电子中文书第8章8.4                                      | 李荣洋         |          |
-|               | 常见的NPC问题，定义8.34，8.35，8.36，8.37                    | 第7章3                     | 电子中文书第8章8.5                                      | 杜泉成，国峰   |          |
-| 第**9次课程** | space complexity：<br />(1) Definition 1,2 and examples 3, 4; 8.1 Savitch's theorem; 8.2 PSPACE class <br />(2) 8.3 PSPACE completeness：definition ， and 8.3.1 TQBF is PSPACE complete |                            | 中文第9章，chapter 8 in English book                    | 万菲           |          |
-|               | **NSpace Complexity：<br />（1）8.3 PSPACE completeness：Winning strategies for games.  example 8.10 and theorem 8.11; Generalized Geography-theorem 8.14，L and NL<br />（2）空间复杂度：总结下空间复杂度的分类，中文电子书中的定义9.11 简单回顾下证明，分析总结9.4 |                            | 中文第9章9.3后半部分+9.4，chapter 8 in English book 8.3 | 赵秀锋；张世学 |          |
-| 第10次课程    | NL-completeness, NL=coNL, Hierarchy theorems                 |                            | 中文电子书10章                                          | 陈龙           |          |
-|               | Provably intractable problems, oracles                       |                            | 中文电子书10章                                          | 马启程         |          |
-| 第11次课程    | NP近似求解：11.1，概率算法(Probabilistic computation, BPP):11.2 |                            | 中文电子书11章                                          | 杨文金         |          |
-|               | 概率算法， 高级专题：11.3                                    |                            | 中文电子书11章                                          | 韩铮           |          |
-| 第12次课程    | 高级专题：11.3，11.4                                         |                            | 中文电子书11章                                          | 熊琛           |          |
-|               | 高级专题：11.5: coNP ⊆ IP ，总结时间复杂度和空间复杂度       |                            | 中文电子书11章                                          | 王稼祥         |          |
-| 第13次课程    | 论文总结                                                     |                            | 补充资料                                                |                |          |
-| 第14次课程    | 论文总结                                                     |                            | 补充资料                                                |                |          |
-| 第15次课程    | 论文总结                                                     |                            | 补充资料                                                |                |          |
-| 第16次课程    | 论文总结                                                     |                            | 补充资料                                                |                |          |
+| Lecture       | Topics                                                       | 讲义                       | 教材                                                    | 负责人 | 讨论题目 |
+| ------------- | ------------------------------------------------------------ | -------------------------- | ------------------------------------------------------- | ------ | -------- |
+| 第1次课程     | Overview + 任务分拆 + 复杂性定义+extension （quantum，Interpretability） |                            |                                                         | 老师   |          |
+| 第2次课程     | 自动机理论（DFA，NFA） + 形式语言1-正则语言（RL的运算性质:闭包，RE） | 第1章1，2 3，4             | 中文第2章<br />英文:§1.1-§1.3                           | 宋昆   | 问题1    |
+|               | 自动机理论 RE=NFA=DFA +（NRL） pump lemma                    | 第1章5，6 （举简单的例子） | 中文第1章 + 补充<br />英文:§2.3-§2.4                    | 吉锋瑞 | 问题2    |
+| 第3次课程     | 1. 上下文无关的语言:<br />   1) CFL，CFG形式化定义<br />   2) 派生过程:CFG->检查代码是否符合文法？（CFG是否能够派生出代码字符串？）<br />   3) 设计CFG (FA -> CFG,等等)<br />   4) 讨论下歧义性 | 第2章1，2 3，4             | 中文第2章                                               | 刘孟寅 | 问题3    |
+|               | 2. 上下文无关的语言CFG<br />     1) 标准化：乔姆斯基范式<br />     2) CFL的运算性质 <br />3. 下推自动机的形式化定义<br />     1) 计算过程的形式化<br />     2) 下推自动机举例 |                            |                                                         |        | 问题4    |
+|               | 4. CFG =下推自动机<br />5. NCFL与证明 + 总结                 | 第2章5，6习题课            | 中文第2章                                               | 庄雨   | 问题5    |
+| 第4次课程     | 1. 图灵机的形式化描述，计算过程的形式化 <br />2.  图灵机的变形（Stay-Option, Semi-Infinite,Off-Line；。多带，非确定性），算法鲁棒性分析（等价） | 第3章1,2,3                 | 中文第3章                                               | 朱康希 | 问题5    |
+|               | 3. 图灵机的变形-枚举，通用图灵机<br />4. 图灵丘奇定理<br />5. 图灵机论文的理解 | 第3章                      | 中文第3章                                               | 刘雪松 | 问题6    |
+| 第5次课程     | **1. 可计算问题分析<br />1）可判定的定义：decidable languages are languages that can be decided by TM **(that means, the corresponding TM will accept or reject correctly, never loops)<br />2）判定其他计算模型的计算能力： investigating some decidable languages that are related to DFA, NFA, and CFG：Acceptance, Emptiness, or Equality，we show how TM can simulate CFG | 第4章1                     | 中文第4章                                               | 李长泰 |          |
+|               | 2. 不可解问题所涉及的基础：不可判定，不可识别<br />1) 可数集合与不可数集合<br />2）对角线法 | 第4章2                     | 中文第4章                                               | 任世奇 |          |
+|               | 3. 不可解问题分析<br />1）不是识别的问题举例<br />2）可识别，不可判定问题举例<br />3）Examples of undecidable Language-Turning recognizable but not decidable:Halt problem，Non-Turning recognizable |                            |                                                         |        |          |
+| 第6次课程     | 1. 归约<br />1）举例：可以用来证明问题是可判定的；<br />2）举例：可以用来证明问题是不可判定的；(State-entry problem,Halting Problem,空带问题 <br />3）其他不可判断给你问题的举例，主要看看TM是否能模拟判定某些算法的能力 | 第5章1，2                  | 中文第5章                                               | 肖楠   |          |
+|               | 2.Undecidable Problems for Recursively Enumerable Languages<br />3. Rice定理：中文书 (习题**5.28**)  + 尽量分析下第一次课给大家说的静态软件分析中的感兴趣问题是无解的，或者分析其他可能用到Rice定义的问题你 | 第5章3，4                  | 中文第5章                                               | 国贤玉 |          |
+|               | 4. The Chomsky Hierarchy<br />1）Linear-Bounded Automata - Context sensitive language<br />2）分析LBA接受性问题是否可判定；<br />3）总结下我们已经看到过的形式语言<br />5. 归约技巧1：历史格局+PC问题， 举例-CFG相关的判定问题 | 第5章3，4                  | 中文第5章                                               |        |          |
+| 第7次课程     | 时间复杂度讨论：<br />1. 复杂性的度量（中文书：7.1.1）<br />2. 模型间的复杂性关系 （中文书：7.1.2，7.1.3）<br />1）Church-Turing thesis，Cobham-Edmonds thesis<br />2）单带图灵机，多带图灵机，不确定图灵机的复杂度分析<br />3. P问题定义和分析（中文书:7.2）：<br />1）理解P是问题分类的一种，不是算法；<br />2）时间TIME(t(n)),多项式时间与P定义<img src="C:\Users\duan\AppData\Roaming\Typora\typora-user-images\image-20211103142921088.png" alt="image-20211103142921088" style="zoom: 80%;" /> | 第7章1                     | 电子中文书第7章7.1，7.2                                 | 杨晓芬 |          |
+|               | 4. P问题定义和举例  （中文书7.2.2，定理7.12，7.13）<br /><img src="C:\Users\duan\AppData\Roaming\Typora\typora-user-images\image-20211103165053184.png" alt="image-20211103165053184" style="zoom:67%;" /><br />5. NP问题定义：Nondeterministic Complexity，确定性TM 多项式时间可验证。。。(中文书，定义7.16,定理7.17-推论7.19)<br />6.典型的NP类问题 (HAMPATH and COMPOSITES∈ NP) |                            |                                                         |        |          |
+|               | 7. 典型的NP类问题：CLIQUE，SUBSET-SUM，The Satisfiability Problem SAT等；<br />8. P和NP（书上简单说明了，由于二者并未解决，所以可以参看其他资料，简单分析下）；<br />9. coNP总结下 | **第7章2**                 | 电子中文书第7章7.3，7.4.1                               | 师亚勇 |          |
+| 第8次课程     | 时间复杂度再讨论：<br />1. 多项式时间归约（定理8.26）归约举例:SAT and 3SAT，SCNF->CLIQUE, CLIQUE->IS，IS->VC, 3SAT ->CLIQUE<br />2. NPC定义，库克-列文定理（定理8.22，8.30，中文定理7.22，7.30）与证明； | 第7章3                     | 电子中文书第7章7.4                                      | 李荣洋 |          |
+|               | 3. 总结下常见的NPC问题，分析推论8.32(中文 定理7.32)，<br />4. 常见的NPC问题，定义8.34(中文 定理7.34)，8.35(中文定理7.35)， |                            |                                                         | 杜泉成 |          |
+|               | 5. 常见的NPC问题，定义8.36(中文 定理7.36)，8.37(中文 定理7.37)，TRICOVER is NP-complete，3COL is NP-complete<br />6. NP hard定义 | 第7章3                     | 电子中文书第7章7.5                                      | 国峰   |          |
+| 第**9次课程** | space complexity：<br />1. 空间复杂度的定义：Definition 1,2 and examples 3, 4; <br />2. 萨维奇定理 (中文8.1节) Savitch's theorem; <br />3. 空间复杂性定义PSPACE类：（中文8.2 PSPACE class）特别是中文书的图8.1 <br />4. PSPACE完全性，PSAPCE难的定义 |                            | 中文第8章，chapter 8 in English book                    | 万菲   |          |
+|               | 5. PSPACE completeness(中文书8.3)：definition <br />6. PSAPCE 完全问题举例分析：8.3.1 TQBF is PSPACE complete，Winning strategies for games.  example 8.10 and theorem 8.11; ：Generalized Geography-theorem 8.14 |                            |                                                         | 赵秀锋 |          |
+|               | 7. L and NL，coNL（中文书8.4）<br />1）NL complete<br />2）NL=coNL<br />8. 总结下空间复杂度和用途 |                            | 中文第9章9.3后半部分+9.4，chapter 8 in English book 8.3 | 张世学 |          |
+| 第10次课程    | 难解性分析<br />1. 层次定理(中文电子书9.1)                   |                            | 中文电子书9章                                           | 陈龙   |          |
+|               | 2. 相对化（中文电子书9.2）:Provably intractable problems, oracles |                            |                                                         |        |          |
+|               | 3. 电路复杂性(中文电子书9.3)                                 |                            | 中文电子书9章                                           | 马启程 |          |
+| 第11次课程    | 高级专题：<br />1. NP近似求解：10.1，<br />2. 概率算法(Probabilistic computation, BPP):10.2.1,10.2.2 |                            | 中文电子书10章                                          | 杨文金 |          |
+|               | 3. 概率算法:10.2.3<br />4. 高级专题-交错式：10.3.1           |                            | 中文电子书10章                                          | 韩铮   |          |
+| 第12次课程    | 高级专题再讨论下：<br />1. 高级专题-交错式：10.3.2<br />2. 高级专题-并行计算：10.5 |                            | 中文电子书10章                                          | 熊琛   |          |
+|               | 3. 高级专题-交互式证明系统，coNP ⊆ IP ，中文10.4             |                            | 中文电子书10章                                          | 王稼祥 |          |
+| 第13次课程    | 论文总结 (6-7个报告)                                         |                            | 补充资料                                                |        |          |
+| 第14次课程    | 论文总结(6-7个报告)                                          |                            | 补充资料                                                |        |          |
+| 第15次课程    | 论文总结(6个报告)                                            |                            | 补充资料                                                |        |          |
+| 第16次课程    | 论文总结(6个报告)                                            |                            | 补充资料                                                |        |          |
 
